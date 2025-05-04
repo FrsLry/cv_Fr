@@ -1,0 +1,430 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template 
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvtheme[blue]{classic} 
+
+%\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+%\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{url}
+	
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{wasysym}
+\newcommand{\Rlogo}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/Rlogo-1.png}}
+\newcommand{\MATLAB}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/Matlab_Logo.png}}
+\newcommand{\MySQL}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/1200px-MySQL.svg.png}}
+\newcommand{\QGIS}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/QGis_Logo.png}}
+\newcommand{\ArcGIS}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/ArcGIS_logo.png}}
+\newcommand{\Julia}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/julia_logo.PNG}}
+\newcommand{\Shell}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/shell.jpg}}
+\newcommand{\Git}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/git_logo.png}}
+\newcommand{\Css}{\protect\includegraphics[height=2ex,keepaspectratio]{pictures/css.png}}
+\usepackage{fontawesome5}
+
+\usepackage[scale=0.95, top = 1cm, nofoot]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.5cm} % Uncomment to change the width of the dates column
+% \setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+% \vspace{-50cm}
+\firstname{François} % Your first name
+\familyname{Leroy} % Your last name
+% All information in this block is optional, comment out any lines you don't need
+\title{Science des données (apprentissage machine et profond),\\Modélisation statistique, Analyses géospatiales}
+\address{466 W 2nd Av.}{Columbus, OH 43201, USA}
+\mobile{+420737642193}
+%\phone{+420 737 480 623}
+\email{francois.libert.leroy@gmail.com}
+\homepage{github.com/FrsLry}{https://github.com/FrsLry} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \homepage{www:\href{https://frslry.github.io/}{https://frslry.github.io/} \\ \href{https://github.com/FrsLry}{GitHub} (FrsLry)}
+% \photo[90pt][0.4pt]{pictures/photo_CV.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{Department of Applied Geography and Spatial Planning}{Czech University of Life Sciences Prague\\Kamýcká 129\\165 21 Praha 6 - Suchdol} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Dr. Keil,} % Opening greeting
+% \closing{Sincerely,} % Closing phrase
+% % \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% Assessing global-scale patterns of biodiversity has always been challenging and is, in this current context of anthropogenic threats, a question to face.  Scientific literature abounds in study cases and hypotheses regarding the main drivers of biodiversity, yet still no consensus has been reached.  Some of the most important limitations are the quantity and type of biodiversity data presently available, which are either incomplette or non-integrable (e.g. structured and unstructured data). Moreover, the effects of biodiversity drivers are dependent on the scale at which we observe the ecosystem. Combining these types of data (local/global and structured/unstructured) is essential for assessing species potential and realized niches. However, these datasets should not all be considered with the same strengths and bias need to be established.\newline\newline
+% Throughout my MSc “Marine Sciences” at Sorbonne University and my internships, I have acquired a strong conceptual basis, especially in biostatistics, biogeography, marine ecology and oceanography, which have enabled me to consider ecosystems as a whole as a result of biotic and abiotic interactions. I have learnt to use many tools to study biodiversity, ecology and environmental conditions. Mapping with GIS softwares (ArcGIS, QGIS) has been part of my degree and of one of my internships. Moreover, I am comfortable using programming languages such as R and MATLAB to make statistical inferences from databases and to train ecosystem models. These two latter approaches have been at the centre of my two MSc internships. Indeed, statistics and modelling are the two numerical tools I have focused on. My first internship was about spatio-temporal variations in the recruitment age of an amphidromous species from the Indian Ocean using statistical tests and larval dispersion modelling. I am currently doing my final MSc internship on modelling the responses of the community associated to a habitat-forming species, the honeycomb worm reef (Sabellaria alveolata). This internship is enabling me to become familiar with in silico studies through using programming languages (mainly R).\newline\newline
+% Using these knowledge, biodiversity data and modelling skills, one of the main steps of this PhD would be for me to shape a model that answers the following question: how can we assess species distributions and biodiversity drivers using cross-scale and heterogeneous biotic and abiotic data? After integrating different datasets from diverse sources, statistical inferences of species distributions would be the logical sequel. Particular attention will have to be paid on the origin and quality of those databases, especially the ones that may include bias. Given the fact that we will have a significant amount of data and not much prior knowledge, non-parametric machine learning may be another way to train a model. Ultimately, this model will be used in order to create GIS maps of predicted patterns and temporal evolution of biodiversity that take in account both environmental (i.e. local) and biogeographic (i.e. regional) effects. All of this in silico work could be shared on an online platform in order to present and discuss with the scientific community.\newline\newline 
+% I would welcome the opportunity to talk with you more about the position. Thank you for your consideration, and do not hesitate to contact me if you need additional information. 
+
+% \makeletterclosing % Print letter signature
+
+% \newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+\vspace{-1.4cm}
+
+\section{Expérience}
+
+\cventry{2024-En cours\\~\\\includegraphics[width=8mm]{pictures/ohio_logo.JPG}}{Chercheur postdoctoral - Utilisation de l’IA pour comprendre les changements spatio-temporels de la biodiversité}{\href{https://www.osu.edu/}{The Ohio State University}, département d’évolution, d’écologie et de biologie des organismes}{Columbus, Ohio}{}{
+\begin{itemize}
+    \item Développement de réseaux neuronaux hiérarchiques à partir d’un cadre bayésien  
+    \item Personnalisation des fonctions de perte pour l’inférence des paramètres de distribution
+    \item Génération de données simulées pour tester les modèles
+    \item Projet réalisé dans le cadre du \href{https://www.abcresearchcenter.org/}{ABC Global Center}, en collaboration avec le MIT, McGill University, et l’institut Mila (Montréal)
+\end{itemize}
+}
+
+\cventry{2020-2024\\\includegraphics[width=18mm]{pictures/CZU_logo_cerna.png}}{Doctorat - Échelles spatiales et décomposition des changements macroécologiques}{\href{https://www.fzp.czu.cz/en/}{Faculté des sciences de l’environnement}, CZU, département de \href{https://www.fzp.czu.cz/en/r-9407-departments/r-9471-departments/r-9649-department-of-applied-geoinformatics-and-spatial-planning}{sciences spatiales}}{Prague}{}{
+\begin{itemize}
+    \item Modélisation des changements de biodiversité à l’aide de grandes bases de données spatialisées
+    \item Optimisation et sélection de modèles (forêts aléatoires, BRT, XGBoost, modèles linéaires...)
+    \item Thèse disponible \href{https://theses.cz/id/aigse5/}{ici}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+\section{Projets}
+
+\cventry{2020-2025}{}{}{}{}{
+\begin{itemize}
+    \item Modèles hiérarchiques et mixtes avec inférence bayésienne pour des séries temporelles, GAMs, Modèles de Markov cachés (\href{https://doi.org/10.32942/X21032}{article})
+    \item Comparaison des performances de modèles (RF, BRT, XGBoost, GLM) avec validation croisée répétée (\href{https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06995}{article})
+    \item Importance des variables et dépendances partielles pour expliquer les erreurs de mesure du satellite ICESat-2 de la NASA (\href{https://doi.org/10.1016/j.rse.2022.113112}{article})
+    \item Liste complète des publications : \href{https://scholar.google.com/citations?user=t_chaRYAAAAJ&hl=en}{ici}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+\section{Enseignement}
+
+\cventry{2021-2024}{}{}{}{}{
+\begin{itemize}
+    \item Écologie statistique et macroécologie
+    \item Gestion de versions avec Git et Github
+    \item \textbf{SIG et analyses spatiales} 
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+\section{Formation}
+
+\cventry{2021}{Apprentissage machine}{Faculté de mathématiques et physique, UFAL, Université Charles}{}{Prague}{Etude de tous les algorithmes d'apprentissage machine, des SVMs aux réseaux de neurones}
+
+\cventry{2020-2024}{Doctorat - Échelles spatiales et décomposition des changements macroécologiques}{}{}{Prague}{}{}
+
+\cventry{2018-2020\\\includegraphics[width=18mm]{pictures/Sciences_SU.png}}{Master Sciences de la mer}{Sorbonne Université}{Paris}{}{Écologie numérique, modélisation, géostatistique, SIG, océanographie, écologie marine, biogéochimie, gestion de bases de données}
+
+\cventry{2015-2018}{Licence Sciences de la vie}{Université Bretagne Sud}{Vannes}{}{Spécialisation en écosystèmes côtiers et gestion, SIG}
+
+%----------------------------------------------------------------------------------------
+\section{Compétences en modélisation}
+
+\cvitem{\textbf{Deep Learning}}{Perceptron multicouche, réseaux convolutifs/récurrents/hiérarchiques, Transformers, autoencodeurs variationnels, GANs, apprentissage par renforcement profond, meta-apprentissage}
+\cvitem{\textbf{Machine Learning}}{Arbres de décision (RF, BRT, GBM, XGBoost), SVM, KNN, Naive Bayes, modèles linéaires (GLM, modèles mixtes, régressions polynomiales...), modélisation hiérarchique}
+\cvitem{\textbf{Autres}}{GAMs, inférence bayésienne avec MCMC, réseaux bayésiens, modèles de Markov cachés, ingénierie de variables, modèles spatiaux, séries temporelles, analyse multivariée, multi-échelles, clustering, ordination, optimisation et prédiction de modèles}
+
+%----------------------------------------------------------------------------------------
+\vspace*{35px}
+\section{Compétences en programmation et logiciels}
+
+\cvitem{Avancé}{\faPython Python, \Rlogo R, \Git Git, \QGIS QGIS, \ArcGIS ArcGIS, \LaTeX LaTeX}
+\cvitem{Intermédiaire}{\Shell Shell, \MySQL MySQL}
+\cvitem{Débutant}{\Julia Julia, \MATLAB MATLAB, \faHtml5 HTML5, \Css CSS}
+
+%----------------------------------------------------------------------------------------
+% \section{Autres expériences}
+
+% \cventry{2024\\(1 semestre)}{Deep Learning}{Faculté de mathématiques et physique}{Université Charles, Prague}{}{
+% \begin{itemize}
+%     \item Parcours complet des algorithmes de Deep Learning
+% \end{itemize}
+% }
+
+% \cventry{2023\\(1 semaine)}{Atelier \href{https://theodatasci.github.io/}{TheoMoDiv}}{CESAB}{Montpellier}{}{
+% \begin{itemize}
+%     \item Formation en approches théoriques pour la modélisation des données écologiques
+% \end{itemize}
+% }
+
+% \cventry{2022\\(1 mois)}{Visite à l’Ohio State University}{\href{http://jarzynalab.com/}{Laboratoire Jarzyna}}{Columbus, Ohio}{}{
+% \begin{itemize}
+%     \item Collaboration sur l’échelle spatiale des tendances d’abondance des oiseaux
+% \end{itemize}
+% }
+
+% \cventry{2022\\(1 semaine)}{Cours HMSC}{École d’été de Jyväskylä}{Jyväskylä, Finlande}{}{
+% \begin{itemize}
+%     \item Modélisation hiérarchique des communautés d’espèces
+% \end{itemize}
+% }
+
+% \cventry{2021\\(1 semestre)}{Apprentissage automatique avec R}{Faculté de mathématiques et physique}{Université Charles, Prague}{}{
+% \begin{itemize}
+%     \item Exploration complète des algorithmes de Machine Learning, des SVMs aux réseaux de neurones
+% \end{itemize}
+% }
+
+
+\section{Stages et autres}
+
+\cventry{2024\\(1 semestre)}{Deep Learning}{Faculté de mathématiques et physique}{Université Charles, Prague}{}{
+\begin{itemize}
+    \item Parcours complet des algorithmes de Deep Learning
+\end{itemize}
+}
+
+% \cventry{2023\\(1 semaine)}{Atelier \href{https://theodatasci.github.io/}{TheoMoDiv}}{CESAB}{Montpellier}{}{
+% \begin{itemize}
+%     \item Formation en approches théoriques pour la modélisation des données écologiques
+% \end{itemize}
+% }
+
+\cventry{2022\\(1 semaine)}{HMSC}{École d’été de Jyväskylä}{Jyväskylä, Finlande}{}{
+\begin{itemize}
+    \item Modélisation hiérarchique des communautés d’espèces
+\end{itemize}
+}
+
+\cventry{2020\\(6 mois)\\\includegraphics[width=20mm]{pictures/Ifremer.png}}{Modélisation des communautés}{\href{https://wwz.ifremer.fr/dyneco/Lab.-Lebco}{DYNECO-LEBCO}, IFREMER}{Brest (France)}{}{
+\begin{itemize} 
+\item \textbf{Objectifs:} Développer des outils de simulations pour évaluer la dynamique des communautés accompagnant les récifs à \textit{Sabellaria alveolata}
+\item Explorer la topologie de la communauté à l'aide d'une modélisation qualitative
+\item Inférerences de réseaux bayésiens dynamiques à partir de grandes bases de données (\href{http://www.honeycombworms.org/The-REEHAB-Project}{REEHAB project})
+%\item Develop a \textcolor{red}{Dynamic Bayesian Network}  (DBN) of the %community \newline
+\end{itemize}
+}
+
+
+\cventry{2019\\(2 mois)\\\includegraphics[width=15mm]{pictures/MNHN-logo.jpg}}{Ecologie Numérique}{\href{https://borea.mnhn.fr/}{UMR BOREA} - \href{https://www.mnhn.fr/}{MNHN} - \href{https://www.locean-ipsl.upmc.fr/index.php?lang=fr}{LOCEAN} }{Paris (France)}{}{
+\begin{itemize}
+\item \textbf{Objective:} Variabilité spatio-temporelle du recrutement de \textit{Sicyopterus lagocephalus}   
+\item Analyse statistique pour observer les différences spatiales (rivières) et temporelles (saison/année)
+\item Modélisation de la dispersion des larves à l'aide du modèle lagrangien Ichthyop en amont pour évaluer la provenance des larves\newline
+\end{itemize}
+}
+
+\cventry{2018\\(2 mois)}{Etude géographique}{Laboratoire Géoarchitecture}{Vannes (France)}{}{
+\begin{itemize}
+\item \textbf{Objective:} utiliser la caractéristique opportuniste du cormoran huppé pour évaluer la biodiversité sous-marine
+\end{itemize}
+}
+
+\cventry{2017\\(5 mois)}{Cartographie, Photogrammétrie}{Laboratoire Géosciences Océans}{Vannes (France)}{}{
+\begin{itemize}
+\item \textbf{Objective:} étudier la dynamique côtière d'une plage afin de répartir les sédiments à l'endroit le plus pertinent
+\item Modélisation tridimensionnelle de plages Guyannaises pour observer leurs évolutions
+\item Production de DEM (\textit{i.e.} Digital Elevation Model) à exploiter par SIG
+\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Experience}
+
+% \subsection{Vocational}
+
+% \cventry{2012--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
+% \newline{}\newline{}
+% Detailed achievements:
+% \begin{itemize}
+% \item Learned how to make amazing coffee
+% \item Finally determined the reason for \textsc{PC LOAD LETTER}:
+% \begin{itemize}
+% \item Paper jam
+% \item Software issues:
+% \begin{itemize}
+% \item Word not sending the correct data to printer
+% \item Windows trying to print in letter format
+% \end{itemize}
+% \item Coffee spilled inside printer
+% \end{itemize}
+% \item Broke the office record for number of kitten pictures in cubicle
+% \end{itemize}}
+
+% %------------------------------------------------
+
+% \cventry{2011--2012}{Summer Intern}{\textsc{Lehman Brothers}}{Los Angeles}{}{Rated "truly distinctive" for Analytical Skills and Teamwork.}
+
+% %------------------------------------------------
+
+% \subsection{Miscellaneous}
+
+% \cventry{2010--2011}{}{}{}{}{Spent some time finding myself. This was a courageous endeavour that didn't have a job title. It was quite important to my overall development though so I'm adding it to my CV. Also it explains the gap in my otherwise stellar CV.}
+
+% \cventry{2009--2010}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems. Allowed me to become expert in all forms of martial arts and weaponry.}
+
+
+%\cvitem{}{\underline{Leroy, F.}, Reif, J., Storch, D., \& Keil, P. (2022). How has bird biodiversity changed over time? A review across spatio-temporal scales. \textbf{\textit{EcoEvoRxiv}}(preprint). \href{https://doi.org/10.32942/osf.io/jhr6v}{https://doi.org/10.32942/osf.io/jhr6v}}
+% \cvitem{2010}{Top Achiever Award -- Commerce}
+
+
+% \cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+% %----------------------------------------------------------------------------------------
+% %	LANGUAGES SECTION
+% %----------------------------------------------------------------------------------------
+
+%\section{Languages}
+
+%\cventry{}{}{}{}{}{French (mothertongue), English (fluent speaking, reading, writing), Spanish (basic)}
+% \cventry{}{}{}{}{}{}{}{}
+
+% \cvitemwithcomment{French}{Mothertongue}{}
+% \cvitemwithcomment{English}{Fluent}{Speaking/Writing/Reading}
+% \cvitemwithcomment{Spanish}{Basic}{}
+
+% %----------------------------------------------------------------------------------------
+% %	Talks SECTION
+% %----------------------------------------------------------------------------------------
+
+% \vspace*{29px}
+\section{Conférences et présentations sélectionnées}
+
+% \cventry{Conférence\\2024-06-14}{\textbf{Acceleration and demographic rates of bird abundance decline in North America}}{GfO macro}{Marburg, Germany}{\href{https://frslry.github.io/Gfo_macro/}{Slides}}{%\underline{Content:}
+% \begin{itemize}
+% \item Spatial scaling of species richness trends
+% \item Birds of the Czech Republic
+% \item Positive and stronger trend of species richness with increasing spatial scale 
+% \item Explained by spatial scaling of colonization, extinction and persistence
+% \newline
+% \end{itemize}
+% }
+
+\cventry{Conférencier invité\\2024-02-16}{\textbf{Introduction to Reproducible Science: Version Control using Git and Github}}{Ecoinformatics IAVS}{Online}{\href{https://frslry.github.io/git_pres/}{Slides}}{%\underline{Content:}
+% \begin{itemize}
+% \item Spatial scaling of species richness trends
+% \item Birds of the Czech Republic
+% \item Positive and stronger trend of species richness with increasing spatial scale 
+% \item Explained by spatial scaling of colonization, extinction and persistence
+% \newline
+% \end{itemize}
+}
+
+% \cventry{Conférence\\2024-01-07}{\textbf{Acceleration and demographic rates of bird decline in North America}}{International Biogeography Society}{Prague}{\href{https://github.com/FrsLry/IBS_Prague_2024/blob/main/poster_IBS_Prague_2024.jpg}{Poster}}{%\underline{Content:}
+% \begin{itemize}
+% \item Spatial scaling of species richness trends
+% \item Birds of the Czech Republic
+% \item Positive and stronger trend of species richness with increasing spatial scale 
+% \item Explained by spatial scaling of colonization, extinction and persistence
+% \newline
+% \end{itemize}
+% }
+
+\cventry{Conférence\\2023-08-10}{\textbf{Decomposing abundance change to recruitment and loss: analysis of the North-American avifauna}}{Ecological Society of America}{Portland, OR}{\href{https://frslry.github.io/ESA_conf/}{Slides}}{%\underline{Content:}
+% \begin{itemize}
+% \item Spatial scaling of species richness trends
+% \item Birds of the Czech Republic
+% \item Positive and stronger trend of species richness with increasing spatial scale 
+% \item Explained by spatial scaling of colonization, extinction and persistence
+% \newline
+% \end{itemize}
+}
+
+\cventry{Conférence\\2022-06-05}{\textbf{Untangling biodiversity changes across a continuum of spatial scales}}{International Biogeography Society conference}{Vancouver, BC}{\href{https://frslry.github.io/IBS_conf/}{Slides}}{%\underline{Content:}
+% \begin{itemize}
+% \item Spatial scaling of species richness trends
+% \item Birds of the Czech Republic
+% \item Positive and stronger trend of species richness with increasing spatial scale 
+% \item Explained by spatial scaling of colonization, extinction and persistence
+% \newline
+% \end{itemize}
+}
+
+% \cventry{Conférence\\2021-10-23}{\textbf{Modeling biodiversity changes across a continuum of spatial scales}}{International Biogeography Society conference (Early career)}{Online}{\href{https://frslry.github.io/Gfo_pres/}{Slides}}{%\underline{Content:}
+% \begin{itemize}
+% \item Using machine learning methods to model species richness trends across spatial scales
+% \item Using models output to highlight the influence of spatio-temporal grains
+% \item Taxon: birds
+% \item Study extent: Czech Republic
+% \newline
+% \end{itemize}
+% }
+
+% \cventry{Conférence\\2021-09-01}{\textbf{Spatio-temporal scaling of biodiversity trends}}{\href{https://www.gfoe-conference.de/}{GfÖ} Virtual Annual Meeting}{Online}{\href{https://frslry.github.io/Gfo_pres/}{Slides}}{%\underline{Content:}
+% \begin{itemize}
+% \item Pilot results of my PhD
+% \item Highlighting the spatial scaling of biodiversity trends 
+% \item Taxon: birds
+% \item Study extent: Czech Republic
+% \newline
+% \end{itemize}
+% }
+
+% \cventry{Séminaire\\2020-07-01}{\textbf{Introduction to Reproducible Science: Version Control using Git}}{CZU}{Prague}{\href{https://frslry.github.io/git_pres/}{Slides}}{%\underline{Content:}
+% \begin{itemize}
+% \item Why is reproducible science essential?
+% \item What is a version control software?
+% \item How to use git and github from the command line?
+% \item How to share your work with Github?
+% \newline
+% \end{itemize}
+% }
+
+% %----------------------------------------------------------------------------------------
+% %	Publication SECTION
+% %----------------------------------------------------------------------------------------
+
+% \nocite{*}
+% \bibliographystyle{plainurl}
+% \bibliography{references.bib}
+
+% %----------------------------------------------------------------------------------------
+% %	Referees SECTION
+% %----------------------------------------------------------------------------------------
+% \vspace*{37px}
+\section{Référents Scientifiques}
+
+\cvitem{}{Dr. \textbf{Marta Jarzyna}, Ohio State University, \phone{+1 (978) 587-5938}, \href{jarzyna.1@osu.edu}{jarzyna.1@osu.edu}}
+\cvitem{}{Dr. \textbf{Petr Keil}, Czech University of Life Sicences, \phone{+420 224382659}, \href{keil@fzp.czu.cz}{keil@fzp.czu.cz}}
+\cvitem{}{Dr. \textbf{Martin Marzloff}, Ifremer, \phone{+332 98224327}, \href{Martin.Marzloff@ifremer.fr}{Martin.Marzloff@ifremer.fr}}
+\cvitem{}{Dr. \textbf{Vítězslav Moudrý}, Czech University of Life Sicences, \phone{+420 224382653}, \href{moudry@fzp.czu.cz}{moudry@fzp.czu.cz}}
+
+\end{document}
