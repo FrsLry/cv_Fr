@@ -258,7 +258,6 @@ INPUT .\pictures\CZU_logo_cerna.png
 INPUT .\pictures\CZU_logo_cerna.png
 INPUT .\pictures\CZU_logo_cerna.png
 INPUT .\pictures\CZU_logo_cerna.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT .\pictures\Sciences_SU.png
 INPUT .\pictures\Sciences_SU.png
 INPUT .\pictures\Sciences_SU.png
@@ -347,6 +346,7 @@ INPUT .\pictures\Ifremer.png
 INPUT .\pictures\Ifremer.png
 INPUT .\pictures\Ifremer.png
 INPUT .\pictures\Ifremer.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT .\pictures\MNHN-logo.jpg
 INPUT .\pictures\MNHN-logo.jpg
 INPUT .\pictures\MNHN-logo.jpg

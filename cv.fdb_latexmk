@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746038431.6386 "c:/Users/leroy.64/Desktop/CV_pro_Fr/cv.tex" "cv.pdf" "cv" 1746038436.40555 0
+["pdflatex"] 1746442228.13253 "c:/Users/leroy.64/Desktop/CV_pro_Fr/cv.tex" "cv.pdf" "cv" 1746442230.40566 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm1095.tfm" 993062124 3172 eb6efaa83c6c52473a1c403f376eab0f ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
@@ -132,10 +132,10 @@
   "C:/Users/leroy.64/AppData/Roaming/MiKTeX/tex/latex/wasysym/uwasy.fd" 1579693002 2296 c50bf1089c7a46a0d4e9a119e980be4e ""
   "C:/Users/leroy.64/AppData/Roaming/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579693002 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
   "C:/Users/leroy.64/AppData/Roaming/MiKTeX/tex/latex/xargs/xargs.sty" 1206231060 12403 a11204384274e5980f17ec9564088fa4 ""
-  "c:/Users/leroy.64/Desktop/CV_pro_Fr/cv.tex" 1746038430 26349 a171fffbb1087dacbace0d925dc2f12c ""
-  "cv.aux" 1746038435 1149 08b6e69a97c3c9a3220b339346732e35 "pdflatex"
-  "cv.out" 1746038435 1388 d140be63b77c3128829fa6fe036ba6a5 "pdflatex"
-  "cv.tex" 1746038430 26349 a171fffbb1087dacbace0d925dc2f12c ""
+  "c:/Users/leroy.64/Desktop/CV_pro_Fr/cv.tex" 1746442227 26244 6c271302ca45730b0bbe0b7532309c7b ""
+  "cv.aux" 1746442230 1149 08b6e69a97c3c9a3220b339346732e35 "pdflatex"
+  "cv.out" 1746442230 1388 d140be63b77c3128829fa6fe036ba6a5 "pdflatex"
+  "cv.tex" 1746442227 26244 6c271302ca45730b0bbe0b7532309c7b ""
   "moderncv.cls" 1742220416 17802 3daf30ec361e55386daba39cc5379be3 ""
   "moderncvcolorblue.sty" 1742220416 1030 d3544194e672adb719a7acbc12e98101 ""
   "moderncvcompatibility.sty" 1742220416 3484 356ff0626d1912510390575078c99133 ""
