@@ -1,6 +1,6 @@
-PWD c:\Users\leroy.64\Desktop\CV_pro_Fr
+PWD c:\Users\leroy.64\OneDrive\Bureau\app\CV_academia_Fr(IFREMER)
 INPUT C:\Users\leroy.64\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\leroy.64\Desktop\CV_pro_Fr\cv.tex
+INPUT c:\Users\leroy.64\OneDrive\Bureau\app\CV_academia_Fr(IFREMER)\cv.tex
 OUTPUT cv.log
 INPUT .\moderncv.cls
 INPUT moderncv.cls
@@ -106,20 +106,52 @@ INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
@@ -128,8 +160,6 @@ INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
@@ -177,6 +207,15 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+OUTPUT cv.bcf
+INPUT cv.bbl
+INPUT .\cv.bbl
+INPUT .\cv.bbl
+INPUT .\cv.bbl
+INPUT cv.bbl
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT .\cv.out
 INPUT .\cv.out
@@ -242,22 +281,15 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\tfm\public\wasy\wasy10.tfm
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\tfm\public\wasy\wasy8.tfm
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\tfm\public\wasy\wasy6.tfm
-INPUT .\pictures\ohio_logo.JPG
-INPUT .\pictures\ohio_logo.JPG
-INPUT .\pictures\ohio_logo.JPG
-INPUT .\pictures\ohio_logo.JPG
-INPUT .\pictures\ohio_logo.JPG
-INPUT .\pictures\ohio_logo.JPG
-INPUT .\pictures\ohio_logo.JPG
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
-INPUT .\pictures\CZU_logo_cerna.png
-INPUT .\pictures\CZU_logo_cerna.png
-INPUT .\pictures\CZU_logo_cerna.png
-INPUT .\pictures\CZU_logo_cerna.png
-INPUT .\pictures\CZU_logo_cerna.png
-INPUT .\pictures\CZU_logo_cerna.png
-INPUT .\pictures\CZU_logo_cerna.png
+INPUT .\pictures\Ifremer.png
+INPUT .\pictures\Ifremer.png
+INPUT .\pictures\Ifremer.png
+INPUT .\pictures\Ifremer.png
+INPUT .\pictures\Ifremer.png
+INPUT .\pictures\Ifremer.png
+INPUT .\pictures\Ifremer.png
 INPUT .\pictures\Sciences_SU.png
 INPUT .\pictures\Sciences_SU.png
 INPUT .\pictures\Sciences_SU.png
@@ -265,24 +297,24 @@ INPUT .\pictures\Sciences_SU.png
 INPUT .\pictures\Sciences_SU.png
 INPUT .\pictures\Sciences_SU.png
 INPUT .\pictures\Sciences_SU.png
+INPUT .\pictures\Rlogo-1.png
+INPUT .\pictures\Rlogo-1.png
+INPUT .\pictures\Rlogo-1.png
+INPUT .\pictures\Rlogo-1.png
+INPUT .\pictures\Rlogo-1.png
+INPUT .\pictures\Rlogo-1.png
+INPUT .\pictures\Rlogo-1.png
+INPUT .\pictures\git_logo.png
+INPUT .\pictures\git_logo.png
+INPUT .\pictures\git_logo.png
+INPUT .\pictures\git_logo.png
+INPUT .\pictures\git_logo.png
+INPUT .\pictures\git_logo.png
+INPUT .\pictures\git_logo.png
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands1.fd
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands1.fd
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands1.fd
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome5\fa5brands1.tfm
-INPUT .\pictures\Rlogo-1.png
-INPUT .\pictures\Rlogo-1.png
-INPUT .\pictures\Rlogo-1.png
-INPUT .\pictures\Rlogo-1.png
-INPUT .\pictures\Rlogo-1.png
-INPUT .\pictures\Rlogo-1.png
-INPUT .\pictures\Rlogo-1.png
-INPUT .\pictures\git_logo.png
-INPUT .\pictures\git_logo.png
-INPUT .\pictures\git_logo.png
-INPUT .\pictures\git_logo.png
-INPUT .\pictures\git_logo.png
-INPUT .\pictures\git_logo.png
-INPUT .\pictures\git_logo.png
 INPUT .\pictures\QGis_Logo.png
 INPUT .\pictures\QGis_Logo.png
 INPUT .\pictures\QGis_Logo.png
@@ -298,71 +330,54 @@ INPUT .\pictures\ArcGIS_logo.png
 INPUT .\pictures\ArcGIS_logo.png
 INPUT .\pictures\ArcGIS_logo.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmss8.tfm
+INPUT .\pictures\shell.jpg
+INPUT .\pictures\shell.jpg
+INPUT .\pictures\shell.jpg
+INPUT .\pictures\shell.jpg
+INPUT .\pictures\shell.jpg
+INPUT .\pictures\shell.jpg
+INPUT .\pictures\shell.jpg
+INPUT .\pictures\1200px-MySQL.svg.png
+INPUT .\pictures\1200px-MySQL.svg.png
+INPUT .\pictures\1200px-MySQL.svg.png
+INPUT .\pictures\1200px-MySQL.svg.png
+INPUT .\pictures\1200px-MySQL.svg.png
+INPUT .\pictures\1200px-MySQL.svg.png
+INPUT .\pictures\1200px-MySQL.svg.png
+INPUT .\pictures\julia_logo.PNG
+INPUT .\pictures\julia_logo.PNG
+INPUT .\pictures\julia_logo.PNG
+INPUT .\pictures\julia_logo.PNG
+INPUT .\pictures\julia_logo.PNG
+INPUT .\pictures\julia_logo.PNG
+INPUT .\pictures\julia_logo.PNG
+INPUT .\pictures\Matlab_Logo.png
+INPUT .\pictures\Matlab_Logo.png
+INPUT .\pictures\Matlab_Logo.png
+INPUT .\pictures\Matlab_Logo.png
+INPUT .\pictures\Matlab_Logo.png
+INPUT .\pictures\Matlab_Logo.png
+INPUT .\pictures\Matlab_Logo.png
 INPUT C:\Users\leroy.64\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
-INPUT .\pictures\shell.jpg
-INPUT .\pictures\shell.jpg
-INPUT .\pictures\shell.jpg
-INPUT .\pictures\shell.jpg
-INPUT .\pictures\shell.jpg
-INPUT .\pictures\shell.jpg
-INPUT .\pictures\shell.jpg
-INPUT .\pictures\1200px-MySQL.svg.png
-INPUT .\pictures\1200px-MySQL.svg.png
-INPUT .\pictures\1200px-MySQL.svg.png
-INPUT .\pictures\1200px-MySQL.svg.png
-INPUT .\pictures\1200px-MySQL.svg.png
-INPUT .\pictures\1200px-MySQL.svg.png
-INPUT .\pictures\1200px-MySQL.svg.png
-INPUT .\pictures\julia_logo.PNG
-INPUT .\pictures\julia_logo.PNG
-INPUT .\pictures\julia_logo.PNG
-INPUT .\pictures\julia_logo.PNG
-INPUT .\pictures\julia_logo.PNG
-INPUT .\pictures\julia_logo.PNG
-INPUT .\pictures\julia_logo.PNG
-INPUT .\pictures\Matlab_Logo.png
-INPUT .\pictures\Matlab_Logo.png
-INPUT .\pictures\Matlab_Logo.png
-INPUT .\pictures\Matlab_Logo.png
-INPUT .\pictures\Matlab_Logo.png
-INPUT .\pictures\Matlab_Logo.png
-INPUT .\pictures\Matlab_Logo.png
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands0.fd
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands0.fd
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands0.fd
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome5\fa5brands0.tfm
-INPUT .\pictures\css.png
-INPUT .\pictures\css.png
-INPUT .\pictures\css.png
-INPUT .\pictures\css.png
-INPUT .\pictures\css.png
-INPUT .\pictures\css.png
-INPUT .\pictures\css.png
-INPUT .\pictures\Ifremer.png
-INPUT .\pictures\Ifremer.png
-INPUT .\pictures\Ifremer.png
-INPUT .\pictures\Ifremer.png
-INPUT .\pictures\Ifremer.png
-INPUT .\pictures\Ifremer.png
-INPUT .\pictures\Ifremer.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
-INPUT .\pictures\MNHN-logo.jpg
-INPUT .\pictures\MNHN-logo.jpg
-INPUT .\pictures\MNHN-logo.jpg
-INPUT .\pictures\MNHN-logo.jpg
-INPUT .\pictures\MNHN-logo.jpg
-INPUT .\pictures\MNHN-logo.jpg
-INPUT .\pictures\MNHN-logo.jpg
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands1.enc
-INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands0.enc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmsso10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
 INPUT cv.aux
 INPUT .\cv.out
 INPUT .\cv.out
+INPUT cv.run.xml
+OUTPUT cv.run.xml
 INPUT C:\Users\leroy.64\AppData\Local\MiKTeX\fonts\pk\ljfour\public\wasy\dpi657\wasy10.pk
 INPUT C:\Users\leroy.64\AppData\Local\MiKTeX\fonts\pk\ljfour\public\wasy\dpi657\wasy10.pk
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss12.pfb
@@ -377,5 +392,7 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsso10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsso17.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsso17.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\type1\public\marvosym\marvosym.pfb
 INPUT C:\Users\leroy.64\AppData\Roaming\MiKTeX\fonts\type1\public\marvosym\marvosym.pfb

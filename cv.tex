@@ -61,17 +61,48 @@
 \firstname{François} % Your first name
 \familyname{Leroy} % Your last name
 % All information in this block is optional, comment out any lines you don't need
-\title{Science des données (apprentissage machine et profond),\\Modélisation statistique, Analyses géospatiales}
+\title{Macroécologie, Ecologie Marine, Modélisation statistique}%, Macroécologie, Sciences marines} % Optional, remove / comment the line if not wanted
 \address{466 W 2nd Av.}{Columbus, OH 43201, USA}
-\mobile{+420737642193}
+\mobile{+1 380 215 7939}
 %\phone{+420 737 480 623}
 \email{francois.libert.leroy@gmail.com}
-\homepage{github.com/FrsLry}{https://github.com/FrsLry} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\homepage{frslry.github.io/}{https://frslry.github.io/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 % \homepage{www:\href{https://frslry.github.io/}{https://frslry.github.io/} \\ \href{https://github.com/FrsLry}{GitHub} (FrsLry)}
 % \photo[90pt][0.4pt]{pictures/photo_CV.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 % \quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
+
+\usepackage[
+  backend=biber,
+  sorting=ydnt,
+  url=true,
+  doi=true,
+  maxnames=99,
+  minnames=99
+]{biblatex}
+
+\addbibresource{references.bib}
+
+\AtEveryBibitem{%
+  \clearfield{urldate}
+  \clearfield{urlyear}
+  \clearfield{urlmonth}
+  \clearfield{urlday}
+  \clearfield{langid}
+  \clearfield{issn}
+  \clearfield{month}
+  \clearfield{day}
+}
+
+\renewbibmacro*{url+urldate}{%
+  \printfield{url}
+}
+
+\renewbibmacro{in:}{}
+
+\DeclareFieldFormat{language}{} 
+
 
 \begin{document}
 
@@ -108,41 +139,74 @@
 
 \vspace{-1.4cm}
 
-\section{Expérience}
+\section{Profil}
 
-\cventry{2024-En cours\\~\\\includegraphics[width=8mm]{pictures/ohio_logo.JPG}}{Chercheur postdoctoral - Utilisation de l’IA pour comprendre les changements spatio-temporels de la biodiversité}{\href{https://www.osu.edu/}{The Ohio State University}, département d’évolution, d’écologie et de biologie des organismes}{Columbus, Ohio}{}{
+\cventry{}{}{}{}{}{Chercheur en écologie quantitative et macroécologie, spécialisé dans l’étude des changements de biodiversité à larges échelles spatio-temporelles. Mon parcours associe une formation en écologie côtière et marine à une expertise en modélisation statistique, télédétection et intelligence artificielle. Je développe actuellement des méthodes de Deep Learning appliquées aux données écologiques au sein du NSF AI and Biodiversity Change Global Center.}
+
+\section{Expériences}
+
+\cventry{2024-2026}{Chercheur postdoctoral - Développement de réseaux de neurones (IA) pour comprendre les changements spatio-temporels de biodiversité}{The Ohio State University}{Columbus, Ohio, USA}{}{
 \begin{itemize}
-    \item Développement de réseaux neuronaux hiérarchiques à partir d’un cadre bayésien  
-    \item Personnalisation des fonctions de perte pour l’inférence des paramètres de distribution
-    \item Génération de données simulées pour tester les modèles
-    \item Projet réalisé dans le cadre du \href{https://www.abcresearchcenter.org/}{ABC Global Center}, en collaboration avec le MIT, McGill University, et l’institut Mila (Montréal)
+    \item Projet NSF: \href{https://www.biodiversityai.org/}{AI and Biodiversity Change} Global Center 
+    \item Développement de réseaux neuronaux hiérarchiques à partir d’un cadre bayésien
+    \item Vision par ordinateur (computeur vision) pour l’analyse d’images de terrain et de données satellitaires
+    \item Personnalisation de fonctions de perte pour l’inférence des paramètres de distribution
 \end{itemize}
 }
 
-\cventry{2020-2024\\\includegraphics[width=18mm]{pictures/CZU_logo_cerna.png}}{Doctorat - Échelles spatiales et décomposition des changements macroécologiques}{\href{https://www.fzp.czu.cz/en/}{Faculté des sciences de l’environnement}, CZU, département de \href{https://www.fzp.czu.cz/en/r-9407-departments/r-9471-departments/r-9649-department-of-applied-geoinformatics-and-spatial-planning}{sciences spatiales}}{Prague}{}{
+\cventry{2020-2024}{Doctorat - Échelles spatiales et décomposition des changements macroécologiques}{CZU, département de sciences spatiales}{Prague}{}{
 \begin{itemize}
-    \item Modélisation des changements de biodiversité à l’aide de grandes bases de données spatialisées
-    \item Optimisation et sélection de modèles (forêts aléatoires, BRT, XGBoost, modèles linéaires...)
+    \item Modélisation spatiales des changements de biodiversité à l’aide de grandes bases de données
+    \item Optimisation et sélection de modèles d'apprentisage automatiques (Random Forest, BRT, XGBoost, modèles linéaires...)
     \item Thèse disponible \href{https://theses.cz/id/aigse5/}{ici}
 \end{itemize}
 }
 
 %----------------------------------------------------------------------------------------
-\section{Projets}
+\section{Projets notables}
 
-\cventry{2020-2025}{}{}{}{}{
+\cventry{}{}{}{}{}{
 \begin{itemize}
-    \item Modèles hiérarchiques et mixtes avec inférence bayésienne pour des séries temporelles, GAMs, Modèles de Markov cachés (\href{https://doi.org/10.32942/X21032}{article})
-    \item Comparaison des performances de modèles (RF, BRT, XGBoost, GLM) avec validation croisée répétée (\href{https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06995}{article})
-    \item Importance des variables et dépendances partielles pour expliquer les erreurs de mesure du satellite ICESat-2 de la NASA (\href{https://doi.org/10.1016/j.rse.2022.113112}{article})
-    \item Liste complète des publications : \href{https://scholar.google.com/citations?user=t_chaRYAAAAJ&hl=en}{ici}
+    \item Publication dans la revue \href{https://www.science.org/doi/10.1126/science.ads0871}{Science} d'une étude sur l'accélération du déclin des populations aviaires en Amérique du Nord. Repris par de nombreux médias, dont la \href{https://www.nytimes.com/issue/todayspaper/2026/02/27/todays-new-york-times}{première page du New York Times}, le \href{https://www.washingtonpost.com/climate-environment/2026/02/26/bird-populations-dying-farming/}{Washington Post}, \href{https://www.lemonde.fr/planete/article/2026/02/26/en-amerique-du-nord-le-declin-des-oiseaux-s-accelere-avec-l-intensification-de-l-agriculture_6668407_3244.html}{Le Monde}, \href{https://www.wbur.org/onpoint/2026/04/03/america-bird-population-decline}{NPR}, \href{https://apnews.com/article/birds-losses-faster-climate-change-agriculture-8cf053bda9dad4fe2dd5a1c7048b6d39}{Associated Press}...
+    \item Determination des erreurs de mesure du satellite ICESat-2 de la NASA (\href{https://doi.org/10.1016/j.rse.2022.113112}{article})
+    \item Comparaison des performances de modèles (RF, BRT, XGBoost, GLM) avec validation croisée (\href{https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06995}{article})
+    % \item Liste complète des publications : \href{https://scholar.google.com/citations?user=t_chaRYAAAAJ&hl=en}{ici}
 \end{itemize}
 }
 
 %----------------------------------------------------------------------------------------
-\section{Enseignement}
+\section{Formations}
 
-\cventry{2021-2024}{}{}{}{}{
+\cventry{2021}{Machine Learning}{Faculté de mathématiques et physique, UFAL, Université Charles}{}{Prague}{Etude de tous les algorithmes d'apprentissage machine, des modèles linéaires aux réseaux de neurones}
+
+\cventry{2020-2024}{Doctorat - Échelles spatiales et décomposition des changements macroécologiques}{}{}{Prague}{}{}
+
+\cventry{2020\\\includegraphics[width=15mm]{pictures/Ifremer.png}}{Modélisation des communautés}{DYNECO-LEBCO, IFREMER}{Brest (France)}{}{
+\begin{itemize} 
+  \item Développer des outils de modélisation (approches qualitatives et réseaux bayésiens dynamiques) pour évaluer la dynamique des communautés accompagnant les récifs à \textit{Sabellaria alveolata} à partir de grandes bases de données %(\href{http://www.honeycombworms.org/The-REEHAB-Project}{REEHAB project})
+% \item \textbf{Objectifs:} Développer des outils de simulations pour évaluer la dynamique des communautés accompagnant les récifs à \textit{Sabellaria alveolata}
+% \item Explorer la topologie de la communauté à l'aide d'une modélisation qualitative
+% \item Inférerences de réseaux bayésiens dynamiques à partir de grandes bases de données (\href{http://www.honeycombworms.org/The-REEHAB-Project}{REEHAB project})
+%\item Develop a \textcolor{red}{Dynamic Bayesian Network}  (DBN) of the %community \newline
+\end{itemize}
+}
+
+\cventry{2018-2020\\\includegraphics[width=18mm]{pictures/Sciences_SU.png}}{Master Sciences de la mer}{Sorbonne Université}{Paris}{}{Écologie numérique, modélisation, géostatistique, SIG, océanographie, écologie marine, biogéochimie, gestion de bases de données}
+
+\cventry{2015-2018}{Licence Sciences de la vie}{Université Bretagne Sud}{Vannes}{}{Spécialisation en écosystèmes côtiers et gestion, SIG}
+
+
+%----------------------------------------------------------------------------------------
+\section{Compétences en programmation et logiciels}
+
+\cvitem{Avancé}{\Rlogo R, \Git Git, \faPython Python, \QGIS QGIS, \ArcGIS ArcGIS, \LaTeX}
+\cvitem{Intermédiaire}{\Shell Shell, \MySQL MySQL}
+\cvitem{Débutant}{\Julia Julia, \MATLAB MATLAB}
+
+%----------------------------------------------------------------------------------------
+\section{Enseignements}
+
+\cventry{}{}{}{}{}{
 \begin{itemize}
     \item Écologie statistique et macroécologie
     \item Gestion de versions avec Git et Github
@@ -150,31 +214,16 @@
 \end{itemize}
 }
 
-%----------------------------------------------------------------------------------------
-\section{Formation}
-
-\cventry{2021\\(1 semestre)}{Apprentissage machine}{Faculté de mathématiques et physique, UFAL, Université Charles}{}{Prague}{Etude de tous les algorithmes d'apprentissage machine, des SVMs aux réseaux de neurones}
-
-\cventry{2020-2024}{Doctorat - Échelles spatiales et décomposition des changements macroécologiques}{}{}{Prague}{}{}
-
-\cventry{2018-2020\\\includegraphics[width=18mm]{pictures/Sciences_SU.png}}{Master Sciences de la mer}{Sorbonne Université}{Paris}{}{Écologie numérique, modélisation, géostatistique, SIG, océanographie, écologie marine, biogéochimie, gestion de bases de données}
-
-\cventry{2015-2018}{Licence Sciences de la vie}{Université Bretagne Sud}{Vannes}{}{Spécialisation en écosystèmes côtiers et gestion, SIG}
 
 %----------------------------------------------------------------------------------------
+% \vspace*{40px}
+
 \section{Compétences en modélisation}
 
 \cvitem{\textbf{Deep Learning}}{Perceptron multicouche, réseaux convolutifs/récurrents/hiérarchiques}
 \cvitem{\textbf{Machine Learning}}{Arbres de décision (RF, BRT, GBM, XGBoost), SVM, KNN, Naive Bayes, modèles linéaires (GLM, modèles mixtes, régressions polynomiales...), modélisation hiérarchique}
 \cvitem{\textbf{Autres}}{GAMs, inférence bayésienne avec MCMC, réseaux bayésiens, modèles de Markov cachés, ingénierie de variables, modèles spatiaux, séries temporelles, analyse multivariée, multi-échelles, clustering, ordination, optimisation et prédiction de modèles}
 
-%----------------------------------------------------------------------------------------
-\vspace*{35px}
-\section{Compétences en programmation et logiciels}
-
-\cvitem{Avancé}{\faPython Python, \Rlogo R, \Git Git, \QGIS QGIS, \ArcGIS ArcGIS, \LaTeX LaTeX}
-\cvitem{Intermédiaire}{\Shell Shell, \MySQL MySQL}
-\cvitem{Débutant}{\Julia Julia, \MATLAB MATLAB, \faHtml5 HTML5, \Css CSS}
 
 %----------------------------------------------------------------------------------------
 % \section{Autres expériences}
@@ -210,57 +259,57 @@
 % }
 
 
-\section{Stages et autres}
+% \section{Stages et autres}
 
-\cventry{2024\\(1 semestre)}{Deep Learning}{Faculté de mathématiques et physique}{Université Charles, Prague}{}{
-\begin{itemize}
-    \item Parcours complet des algorithmes de Deep Learning
-\end{itemize}
-}
-
-% \cventry{2023\\(1 semaine)}{Atelier \href{https://theodatasci.github.io/}{TheoMoDiv}}{CESAB}{Montpellier}{}{
+% \cventry{2024\\(1 semestre)}{Deep Learning}{Faculté de mathématiques et physique}{Université Charles, Prague}{}{
 % \begin{itemize}
-%     \item Formation en approches théoriques pour la modélisation des données écologiques
+%     \item Parcours complet des algorithmes de Deep Learning
 % \end{itemize}
 % }
 
-\cventry{2022\\(1 semaine)}{HMSC}{École d’été de Jyväskylä}{Jyväskylä, Finlande}{}{
-\begin{itemize}
-    \item Modélisation hiérarchique des communautés d’espèces
-\end{itemize}
-}
+% % \cventry{2023\\(1 semaine)}{Atelier \href{https://theodatasci.github.io/}{TheoMoDiv}}{CESAB}{Montpellier}{}{
+% % \begin{itemize}
+% %     \item Formation en approches théoriques pour la modélisation des données écologiques
+% % \end{itemize}
+% % }
 
-\cventry{2020\\(6 mois)\\\includegraphics[width=20mm]{pictures/Ifremer.png}}{Modélisation des communautés}{\href{https://wwz.ifremer.fr/dyneco/Lab.-Lebco}{DYNECO-LEBCO}, IFREMER}{Brest (France)}{}{
-\begin{itemize} 
-\item \textbf{Objectifs:} Développer des outils de simulations pour évaluer la dynamique des communautés accompagnant les récifs à \textit{Sabellaria alveolata}
-\item Explorer la topologie de la communauté à l'aide d'une modélisation qualitative
-\item Inférerences de réseaux bayésiens dynamiques à partir de grandes bases de données (\href{http://www.honeycombworms.org/The-REEHAB-Project}{REEHAB project})
-%\item Develop a \textcolor{red}{Dynamic Bayesian Network}  (DBN) of the %community \newline
-\end{itemize}
-}
+% \cventry{2022\\(1 semaine)}{HMSC}{École d’été de Jyväskylä}{Jyväskylä, Finlande}{}{
+% \begin{itemize}
+%     \item Modélisation hiérarchique des communautés d’espèces
+% \end{itemize}
+% }
+
+% \cventry{2020\\(6 mois)\\\includegraphics[width=20mm]{pictures/Ifremer.png}}{Modélisation des communautés}{\href{https://wwz.ifremer.fr/dyneco/Lab.-Lebco}{DYNECO-LEBCO}, IFREMER}{Brest (France)}{}{
+% \begin{itemize} 
+% \item \textbf{Objectifs:} Développer des outils de simulations pour évaluer la dynamique des communautés accompagnant les récifs à \textit{Sabellaria alveolata}
+% \item Explorer la topologie de la communauté à l'aide d'une modélisation qualitative
+% \item Inférerences de réseaux bayésiens dynamiques à partir de grandes bases de données (\href{http://www.honeycombworms.org/The-REEHAB-Project}{REEHAB project})
+% %\item Develop a \textcolor{red}{Dynamic Bayesian Network}  (DBN) of the %community \newline
+% \end{itemize}
+% }
 
 
-\cventry{2019\\(2 mois)\\\includegraphics[width=15mm]{pictures/MNHN-logo.jpg}}{Ecologie Numérique}{\href{https://borea.mnhn.fr/}{UMR BOREA} - \href{https://www.mnhn.fr/}{MNHN} - \href{https://www.locean-ipsl.upmc.fr/index.php?lang=fr}{LOCEAN} }{Paris (France)}{}{
-\begin{itemize}
-\item \textbf{Objective:} Variabilité spatio-temporelle du recrutement de \textit{Sicyopterus lagocephalus}   
-\item Analyse statistique pour observer les différences spatiales (rivières) et temporelles (saison/année)
-\item Modélisation de la dispersion des larves à l'aide du modèle lagrangien Ichthyop en amont pour évaluer la provenance des larves\newline
-\end{itemize}
-}
+% \cventry{2019\\(2 mois)\\\includegraphics[width=15mm]{pictures/MNHN-logo.jpg}}{Ecologie Numérique}{\href{https://borea.mnhn.fr/}{UMR BOREA} - \href{https://www.mnhn.fr/}{MNHN} - \href{https://www.locean-ipsl.upmc.fr/index.php?lang=fr}{LOCEAN} }{Paris (France)}{}{
+% \begin{itemize}
+% \item \textbf{Objective:} Variabilité spatio-temporelle du recrutement de \textit{Sicyopterus lagocephalus}   
+% \item Analyse statistique pour observer les différences spatiales (rivières) et temporelles (saison/année)
+% \item Modélisation de la dispersion des larves à l'aide du modèle lagrangien Ichthyop en amont pour évaluer la provenance des larves\newline
+% \end{itemize}
+% }
 
-\cventry{2018\\(2 mois)}{Etude géographique}{Laboratoire Géoarchitecture}{Vannes (France)}{}{
-\begin{itemize}
-\item \textbf{Objective:} utiliser la caractéristique opportuniste du cormoran huppé pour évaluer la biodiversité sous-marine
-\end{itemize}
-}
+% \cventry{2018\\(2 mois)}{Etude géographique}{Laboratoire Géoarchitecture}{Vannes (France)}{}{
+% \begin{itemize}
+% \item \textbf{Objective:} utiliser la caractéristique opportuniste du cormoran huppé pour évaluer la biodiversité sous-marine
+% \end{itemize}
+% }
 
-\cventry{2017\\(5 mois)}{Cartographie, Photogrammétrie}{Laboratoire Géosciences Océans}{Vannes (France)}{}{
-\begin{itemize}
-\item \textbf{Objective:} étudier la dynamique côtière d'une plage afin de répartir les sédiments à l'endroit le plus pertinent
-\item Modélisation tridimensionnelle de plages Guyannaises pour observer leurs évolutions
-\item Production de DEM (\textit{i.e.} Digital Elevation Model) à exploiter par SIG
-\end{itemize}
-}
+% \cventry{2017\\(5 mois)}{Cartographie, Photogrammétrie}{Laboratoire Géosciences Océans}{Vannes (France)}{}{
+% \begin{itemize}
+% \item \textbf{Objective:} étudier la dynamique côtière d'une plage afin de répartir les sédiments à l'endroit le plus pertinent
+% \item Modélisation tridimensionnelle de plages Guyannaises pour observer leurs évolutions
+% \item Production de DEM (\textit{i.e.} Digital Elevation Model) à exploiter par SIG
+% \end{itemize}
+% }
 
 
 %----------------------------------------------------------------------------------------
@@ -338,7 +387,7 @@
 % \end{itemize}
 % }
 
-\cventry{Conférencier invité\\2024-02-16}{\textbf{Introduction to Reproducible Science: Version Control using Git and Github}}{Ecoinformatics IAVS}{Online}{\href{https://frslry.github.io/git_pres/}{Slides}}{%\underline{Content:}
+\cventry{Conférencier invité}{\textbf{Introduction to Reproducible Science: Version Control using Git and Github}}{Ecoinformatics IAVS}{Online}{\href{https://frslry.github.io/git_pres/}{Slides}}{%\underline{Content:}
 % \begin{itemize}
 % \item Spatial scaling of species richness trends
 % \item Birds of the Czech Republic
@@ -358,7 +407,7 @@
 % \end{itemize}
 % }
 
-\cventry{Conférence\\2023-08-10}{\textbf{Decomposing abundance change to recruitment and loss: analysis of the North-American avifauna}}{Ecological Society of America}{Portland, OR}{\href{https://frslry.github.io/ESA_conf/}{Slides}}{%\underline{Content:}
+\cventry{}{\textbf{Decomposing abundance change to recruitment and loss: analysis of the North-American avifauna}}{Ecological Society of America}{Portland, OR}{\href{https://frslry.github.io/ESA_conf/}{Slides}}{%\underline{Content:}
 % \begin{itemize}
 % \item Spatial scaling of species richness trends
 % \item Birds of the Czech Republic
@@ -368,7 +417,7 @@
 % \end{itemize}
 }
 
-\cventry{Conférence\\2022-06-05}{\textbf{Untangling biodiversity changes across a continuum of spatial scales}}{International Biogeography Society conference}{Vancouver, BC}{\href{https://frslry.github.io/IBS_conf/}{Slides}}{%\underline{Content:}
+\cventry{}{\textbf{Untangling biodiversity changes across a continuum of spatial scales}}{International Biogeography Society conference}{Vancouver, BC}{\href{https://frslry.github.io/IBS_conf/}{Slides}}{%\underline{Content:}
 % \begin{itemize}
 % \item Spatial scaling of species richness trends
 % \item Birds of the Czech Republic
@@ -422,9 +471,15 @@
 % \vspace*{37px}
 \section{Référents Scientifiques}
 
+\cvitem{}{Dr. \textbf{Martin Marzloff}, Ifremer, \phone{+332 98224327}, \href{Martin.Marzloff@ifremer.fr}{Martin.Marzloff@ifremer.fr}}
 \cvitem{}{Dr. \textbf{Marta Jarzyna}, Ohio State University, \phone{+1 (978) 587-5938}, \href{jarzyna.1@osu.edu}{jarzyna.1@osu.edu}}
 \cvitem{}{Dr. \textbf{Petr Keil}, Czech University of Life Sicences, \phone{+420 224382659}, \href{keil@fzp.czu.cz}{keil@fzp.czu.cz}}
-\cvitem{}{Dr. \textbf{Martin Marzloff}, Ifremer, \phone{+332 98224327}, \href{Martin.Marzloff@ifremer.fr}{Martin.Marzloff@ifremer.fr}}
 \cvitem{}{Dr. \textbf{Vítězslav Moudrý}, Czech University of Life Sicences, \phone{+420 224382653}, \href{moudry@fzp.czu.cz}{moudry@fzp.czu.cz}}
+
+{\small
+\nocite{*}
+\printbibliography[title=Publications]
+}
+
 
 \end{document}
